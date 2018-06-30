@@ -8,9 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Marvellous Infosystem';
   Registration;
-
+  public flag = true;
   public register()
   {
+    this.flag = false;
     this.Registration="Registration Page";  
   }
 }
